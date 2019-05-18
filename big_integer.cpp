@@ -44,7 +44,7 @@ big_integer::big_integer(std::string const &str) {
     if (str[0] == '-') {
         sign = -1;
     }
-    if (digits.size() == 0) {
+    if (digits.empty()) {
         *this = big_integer();
     }
 }
@@ -56,7 +56,7 @@ void big_integer::clear() {
     while (digits.size() > 1 && !digits.back()) {
         digits.pop_back();
     }
-    if ((digits.size() == 1 && digits[0] == 0) || digits.size() == 0) {
+    if ((digits.size() == 1 && digits[0] == 0) || digits.empty()) {
         *this = big_integer();
     }
 }
@@ -171,7 +171,6 @@ void div(big_integer &left, uint32_t v) {
         rem = (int32_t) (buf % v);
     }
     left.clear();
-    return;
 }
 
 big_integer &big_integer::operator/=(big_integer const &rhs) {
