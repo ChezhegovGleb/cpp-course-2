@@ -14,12 +14,11 @@ big_integer::big_integer(int a) {
     sign = (a == 0 ? 0 : ((a > 0) ? 1 : -1));
     if (a != 0) {
         if (a == INT32_MIN) {
-            digits.push_back(static_cast<uint32_t >(INT32_MAX) + 1);
+            digits.push_back(static_cast<uint32_t>(INT32_MAX) + 1);
         } else {
             digits.push_back(static_cast<uint32_t>(abs(a)));
         }
     }
-
 }
 
 big_integer::big_integer(uint64_t a) {
@@ -57,7 +56,7 @@ void big_integer::clear() {
     while (digits.size() > 1 && !digits.back()) {
         digits.pop_back();
     }
-    if ((digits.size() == 1 && digits[0] == 0 )|| digits.size() == 0) {
+    if ((digits.size() == 1 && digits[0] == 0) || digits.size() == 0) {
         *this = big_integer();
     }
 }
@@ -157,11 +156,9 @@ big_integer &big_integer::operator*=(big_integer const &rhs) {
             carry = static_cast<uint32_t>(buf / BASE);
         }
     }
-
     ans.clear();
     *this = ans;
     return *this;
-
 }
 
 void div(big_integer &left, uint32_t v) {
@@ -269,9 +266,9 @@ std::vector<uint32_t> big_integer::to_twos_complement(big_integer const &a, size
     vec.resize(length);
     if (a.sign == -1) {
         uint32_t carry = 1;
-        for (size_t i = 0; i < vec.size(); ++i) {
-            vec[i] = ~vec[i] + carry;
-            if (vec[i] != 0) {
+        for (unsigned int &i : vec) {
+            i = ~i + carry;
+            if (i != 0) {
                 carry = 0;
             }
         }
@@ -288,9 +285,9 @@ big_integer big_integer::from_twos_complement(const std::vector<uint32_t> &a) {
     }
     if ((a.back() >> (LENGTH - 1)) == 1) {
         uint32_t carry = 1;
-        for (size_t i = 0; i < num.digits.size(); ++i) {
-            num.digits[i] = ~num.digits[i] + carry;
-            if (num.digits[i] != 0) {
+        for (unsigned int &digit : num.digits) {
+            digit = ~digit + carry;
+            if (digit != 0) {
                 carry = 0;
             }
         }
@@ -328,7 +325,7 @@ big_integer &big_integer::operator^=(big_integer const &rhs) {
 }
 
 big_integer &big_integer::operator<<=(int rhs) {
-    size_t shift = (size_t) (rhs / LENGTH);
+    auto shift = (size_t) (rhs / LENGTH);
     std::vector<uint32_t> vector = to_twos_complement(*this, digits.size() + shift + 1);
     if (shift > 0) {
         for (size_t i = digits.size(); i > 0; --i)
@@ -349,7 +346,7 @@ big_integer &big_integer::operator<<=(int rhs) {
 }
 
 big_integer &big_integer::operator>>=(int rhs) {
-    size_t shift = (size_t) (rhs / LENGTH);
+    auto shift = (size_t) (rhs / LENGTH);
     std::vector<uint32_t> vector = to_twos_complement(*this, digits.size() + 1);
     uint32_t pad = vector.back();
     if (shift > 0) {
@@ -369,7 +366,6 @@ big_integer &big_integer::operator>>=(int rhs) {
         if (sign < 0) {
             vector[vector.size() - 1] |= (UINT32_MAX << (LENGTH - shift));
         }
-        // vector.back() = pad;
     }
     return (*this = from_twos_complement(vector));
 }
@@ -381,7 +377,7 @@ big_integer big_integer::operator+() const {
 big_integer big_integer::operator-() const {
     big_integer ans = *this;
     ans.sign = -sign;
-    if (digits.size() == 0) {
+    if (digits.empty()) {
         ans.sign = 0;
     }
     return ans;
