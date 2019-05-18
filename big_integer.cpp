@@ -279,7 +279,7 @@ big_integer big_integer::from_twos_complement(const std::vector<uint32_t> &a) {
     big_integer num;
     num.digits = a;
     num.sign = 1;
-    if (a.size() == 0) {
+    if (a.empty()) {
         num.sign = 0;
     }
     if ((a.back() >> (LENGTH - 1)) == 1) {
