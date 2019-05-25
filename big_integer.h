@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include <cstdint>
+#include "my_vector.h"
 
 struct big_integer
 {
@@ -52,9 +53,9 @@ struct big_integer
 private:
 
     int32_t sign;
-    std::vector<uint32_t> digits;
-    std::vector<uint32_t> to_twos_complement(big_integer const& a, size_t length);
-    big_integer from_twos_complement(const std::vector<uint32_t>& a);
+    my_vector digits;
+    my_vector to_twos_complement(big_integer const& a, size_t length);
+    big_integer from_twos_complement(const my_vector& a);
     int64_t operator%(uint32_t v);
     friend void div(big_integer&, uint32_t);
     friend void mul(big_integer& left, uint32_t a);
@@ -82,6 +83,6 @@ bool operator<=(big_integer const& a, big_integer const& b);
 bool operator>=(big_integer const& a, big_integer const& b);
 
 std::string to_string(big_integer const& a);
+std::ostream& operator<<(std::ostream& s, big_integer const& a);
 
 #endif //BIG_INTEGER_H
-

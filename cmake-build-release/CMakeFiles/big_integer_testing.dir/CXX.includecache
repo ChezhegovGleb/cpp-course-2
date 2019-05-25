@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/glebanya99/CLionProjects/big_integer_optimized/my_vector.cpp
+my_vector.h
+/home/glebanya99/CLionProjects/big_integer_optimized/my_vector.h
+
+/home/glebanya99/CLionProjects/big_integer_optimized/my_vector.h
+cstdint
+-
+vector
+-
+memory
+-
+
