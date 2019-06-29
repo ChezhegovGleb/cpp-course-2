@@ -5,7 +5,7 @@
 #include <utility>
 #include <gtest/gtest.h>
 
-#include "big_integer.h"
+#include "big_integer.h"/home/glebanya99/CLionProjects/big_integer_optimized/big_integer_testing.cpp
 
 TEST(correctness, two_plus_two)
 {
