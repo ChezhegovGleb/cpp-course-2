@@ -145,7 +145,7 @@ void mul(big_integer &left, uint32_t a) {
 
 big_integer &big_integer::operator*=(big_integer const &rhs) {
     big_integer ans;
-    ans.digits.resize(digits.size() + rhs.digits.size(), true);
+    ans.digits.resize(digits.size() + rhs.digits.size());
     ans.sign = sign * rhs.sign;
     uint64_t buf;
     for (size_t i = 0; i < digits.size(); ++i) {
@@ -189,7 +189,7 @@ big_integer &big_integer::operator/=(big_integer const &rhs) {
     big_integer ans(0);
     int64_t n = rhs.digits.size();
     int64_t m = digits.size() - n;
-    ans.digits.resize(m + n, true);
+    ans.digits.resize(m + n);
     ans.sign = sign * rhs.sign;
     big_integer saverhs = rhs;
     saverhs.sign = 1;
@@ -201,7 +201,7 @@ big_integer &big_integer::operator/=(big_integer const &rhs) {
         *this *= (big_integer) scale;
         saverhs *= (big_integer) scale;
     }
-    digits.resize(digits.size() + 1,true);
+    digits.resize(digits.size() + 1);
     for (vJ = m, uJ = n + vJ; vJ >= 0; --vJ, --uJ) {
         ansGuess = (digits[uJ] * BASE + digits[uJ - 1]) / saverhs.digits[n - 1];
         r = (digits[uJ] * BASE + digits[uJ - 1]) % saverhs.digits[n - 1];
@@ -266,7 +266,7 @@ big_integer &big_integer::operator%=(big_integer const &rhs) {
 
 my_vector big_integer::to_twos_complement(big_integer const &a, size_t length) {
     my_vector vec = a.digits;
-    vec.resize(length, true);
+    vec.resize(length);
     if (a.sign == -1) {
         uint32_t carry = 1;
         for (size_t i = 0; i < vec.size(); ++i) {
@@ -369,7 +369,7 @@ big_integer &big_integer::operator>>=(int rhs) {
         if (sign < 0) {
             vector[vector.size() - 1] |= (UINT32_MAX << (LENGTH - shift));
         }
-        // vector.back() = pad;
+        //vector.back() = pad;
     }
     return (*this = from_twos_complement(vector));
 }

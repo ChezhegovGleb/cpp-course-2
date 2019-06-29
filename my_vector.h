@@ -1,46 +1,79 @@
-#ifndef BIG_INTEGER_MYVECTOR_H
-#define BIG_INTEGER_MYVECTOR_H
+#ifndef my_vector_H
+#define my_vector_H
 
 #include <cstdint>
-#include <vector>
+#include <cstddef>
 #include <memory>
 
-
-const size_t SMALL_SIZE = 4;
-struct my_vector
+class my_vector
 {
-    my_vector();
-    explicit my_vector(int a);
-    explicit my_vector(size_t size, uint32_t el );
-    my_vector(my_vector const& other);
-    ~my_vector();
+    struct big_vector
+    {
+        size_t capacity;
+        std::shared_ptr <uint32_t> data;
 
-    inline size_t size() const {
-        return cnt_elements;
+        big_vector(size_t capacity, std::shared_ptr<uint32_t> data);
+        big_vector(big_vector const &other);
+
+        uint32_t* begin();
+        const uint32_t* begin() const;
+        uint32_t* end();
+        const uint32_t* end() const;
+
+        const uint32_t& operator[](size_t idx) const;
+        uint32_t& operator[](size_t idx);
+
+        //makes object unique
+        void detach(size_t useful_data);
+
+        void guarantee_capacity(size_t cap);
     };
-    my_vector& operator=(my_vector const& other);
-    uint32_t& operator[](size_t i);
-    const uint32_t operator[](size_t i) const;
-    uint32_t& back();
-    const uint32_t back() const;
-    void resize(size_t new_size);
-    void resize(size_t new_size,bool f);
-    void push_back(uint32_t x);
-    void pop_back();
 
-   // friend big_integer&::operator*=(big_integer const& rhs);
+    static const size_t SMALL_OBJECT_SIZE = sizeof(big_vector) / sizeof(uint32_t);
+
+    size_t siz;
+    union
+    {
+        uint32_t small_data[SMALL_OBJECT_SIZE];
+        big_vector data;
+    };
 
 private:
-    size_t cnt_elements;
-    bool is_small = true;
+    bool is_small() const;
+    void to_big();
+    void to_small();
 
-    union {
-        uint32_t digit[SMALL_SIZE];
-        std::shared_ptr<std::vector<uint32_t>> vec;
-    };
+public:
+    my_vector();
+    my_vector(size_t n);
+    my_vector(size_t n, uint32_t val);
 
-    void copy();
+    my_vector(my_vector const& other);
+    my_vector(std::initializer_list<uint32_t> data);
+
+    ~my_vector();
+
+    const uint32_t& operator[](size_t idx) const;
+    uint32_t& operator[](size_t idx);
+
+    my_vector& operator=(my_vector const &other);
+    void swap(my_vector& other) noexcept;
+
+    void push_back(uint32_t const &val);
+    void pop_back();
+    const uint32_t& back() const;
+    uint32_t& back();
+
+    uint32_t* begin();
+    const uint32_t* begin() const;
+    uint32_t* end();
+    const uint32_t* end() const;
+
+    void resize(size_t n);
+    size_t size() const;
+    void detach();
 };
 
+void swap(my_vector &a, my_vector& b);
 
-#endif //BIG_INTEGER_MYVECTOR_H
+#endif //my_vector_H
