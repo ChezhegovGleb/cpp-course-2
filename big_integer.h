@@ -15,6 +15,7 @@ struct big_integer
     big_integer(int a);
     big_integer(uint64_t a);
     explicit big_integer(std::string const& str);
+
     ~big_integer();
 
     big_integer& operator=(big_integer const& other);

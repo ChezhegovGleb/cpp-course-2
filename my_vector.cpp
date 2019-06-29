@@ -38,7 +38,7 @@ uint32_t& my_vector::big_vector::operator[](size_t idx) {
     return data.get()[idx];
 }
 
-void my_vector::big_vector::detach(size_t useful_size) {
+void my_vector::big_vector::cut(size_t useful_size) {
     if (data.unique())
         return;
 
@@ -76,8 +76,7 @@ my_vector::my_vector(size_t n, uint32_t val) : siz(n) {
     if (is_small())
         for (size_t i = 0; i < n; ++i)
             small_data[i] = val;
-    else
-    {
+    else {
         new(&data) big_vector(n, shared_ptr<uint32_t>(new uint32_t[n], std::default_delete<uint32_t[]>()));
         for (size_t i = 0; i < n; ++i)
             data.begin()[i] = val;
@@ -117,7 +116,7 @@ const uint32_t& my_vector::operator[](size_t idx) const {
 }
 
 uint32_t& my_vector::operator[](size_t idx) {
-    detach();
+    cut();
     if (is_small())
         return small_data[idx];
     return data[idx];
@@ -140,9 +139,9 @@ my_vector& my_vector::operator=(my_vector const &other) {
     return *this;
 }
 
-void my_vector::detach() {
+void my_vector::cut() {
     if (!is_small()) {
-        data.detach(siz);
+        data.cut(siz);
     }
 }
 
@@ -166,8 +165,7 @@ void my_vector::to_small() {
 }
 
 void my_vector::push_back(uint32_t const &val) {
-    if (siz < SMALL_OBJECT_SIZE)
-    {
+    if (siz < SMALL_OBJECT_SIZE) {
         small_data[siz] = val;
         ++siz;
         return;
@@ -212,6 +210,7 @@ uint32_t* my_vector::begin() {
         return small_data;
     return data.begin();
 }
+
 
 const uint32_t* my_vector::end() const {
     if (is_small())

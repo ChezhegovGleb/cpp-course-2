@@ -7,21 +7,53 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cd90f91-b515-4bfa-8359-77f4b1500a6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="0cd90f91-b515-4bfa-8359-77f4b1500a6f" name="Default Changelist" comment="Hello!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/big_integer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/big_integer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/big_integer.h" beforeDir="false" afterPath="$PROJECT_DIR$/big_integer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/big_integer_testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/big_integer_testing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest/gtest-all.cc" beforeDir="false" afterPath="$PROJECT_DIR$/gtest/gtest-all.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest/gtest.h" beforeDir="false" afterPath="$PROJECT_DIR$/gtest/gtest.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest/gtest_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/gtest/gtest_main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BIGINT.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BIGINT.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/big_integer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/big_integer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/big_integer_testing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/gtest/gtest-all.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/gtest/gtest_main.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/my_vector.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/big_integer_testing.dir/my_vector.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/big_integer_testing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/big_integer_testing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/big_integer_testing.dir/big_integer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/big_integer_testing.dir/big_integer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/big_integer_testing.dir/my_vector.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/big_integer_testing.dir/my_vector.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/big_integer_testing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/big_integer_testing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/my_vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/my_vector.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -34,23 +66,17 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_vector.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_vector.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="534">
+              <caret line="248" column="1" lean-forward="true" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +84,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="888">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="e#41#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,17 +105,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/big_integer_testing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
+            <state relative-caret-position="171">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/big_integer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/big_integer.h">
+        <entry file="file://$PROJECT_DIR$/big_integer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/gtest-all.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68267">
+              <caret line="3593" column="68" selection-start-line="3593" selection-start-column="68" selection-end-line="3593" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15200">
+              <caret line="800" column="7" selection-start-line="800" selection-start-column="7" selection-end-line="800" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -86,17 +154,35 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>my_vector</find>
       <find>&lt;std::vector&lt;uint32_t&gt;&gt;</find>
-      <find>resize</find>
       <find>iterations</find>
       <find>2017</find>
+      <find>my_vector</find>
+      <find>reset</find>
+      <find>~</find>
+      <find>shl_long</find>
+      <find>to_twos</find>
+      <find>vec</find>
+      <find>to_</find>
+      <find>resize</find>
+      <find>shl</find>
+      <find>&lt;&lt;</find>
+      <find>optimized_vector</find>
+      <find>detach</find>
+      <find>get</find>
+      <find>to_small</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;std::vector&lt;uint32_t&gt;&gt;</replace>
+      <replace>my_vector</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="https://github.com/ChezhegovGleb" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -110,18 +196,19 @@
         <option value="$PROJECT_DIR$/gtest/gtest-all.cc" />
         <option value="$PROJECT_DIR$/gtest/gtest.h" />
         <option value="$PROJECT_DIR$/gtest/gtest_main.cc" />
-        <option value="$PROJECT_DIR$/big_integer_testing.cpp" />
-        <option value="$PROJECT_DIR$/big_integer.h" />
-        <option value="$PROJECT_DIR$/big_integer.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/big_integer_testing.cpp" />
         <option value="$PROJECT_DIR$/my_vector.h" />
         <option value="$PROJECT_DIR$/my_vector.cpp" />
+        <option value="$PROJECT_DIR$/big_integer.cpp" />
+        <option value="$PROJECT_DIR$/big_integer.h" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="823" />
-    <option name="y" value="126" />
+    <option name="x" value="223" />
+    <option name="y" value="173" />
     <option name="width" value="928" />
     <option name="height" value="1056" />
   </component>
@@ -131,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +229,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +238,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,7 +258,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="big_integer_testing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BIGINT" TARGET_NAME="big_integer_testing" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="BIGINT" RUN_TARGET_NAME="big_integer_testing">
+    <configuration name="big_integer_testing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BIGINT" TARGET_NAME="big_integer_testing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BIGINT" RUN_TARGET_NAME="big_integer_testing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -192,7 +279,16 @@
       <workItem from="1558637678919" duration="1476000" />
       <workItem from="1558781389124" duration="431000" />
       <workItem from="1558786624033" duration="1722000" />
-      <workItem from="1558782346717" duration="542000" />
+      <workItem from="1558782346717" duration="6107000" />
+      <workItem from="1558789288283" duration="7288000" />
+      <workItem from="1560191518098" duration="8522000" />
+      <workItem from="1560365324241" duration="842000" />
+      <workItem from="1560441164505" duration="599000" />
+      <workItem from="1560442113180" duration="1094000" />
+      <workItem from="1560449582542" duration="882000" />
+      <workItem from="1561733206750" duration="5996000" />
+      <workItem from="1561787764612" duration="759000" />
+      <workItem from="1561792931600" duration="11179000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1558181447619</created>
@@ -222,11 +318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558194461977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1561788262929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561788262931</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26249000" />
+    <option name="totallyTimeSpent" value="68975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,13 +342,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25538972" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2841349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25918368" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2010204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -253,8 +357,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32857144" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32244897" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -292,166 +396,117 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3693">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381083">
+          <caret line="20057" selection-start-line="20057" selection-end-line="20057" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/gtest_main.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/alloc_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="529" column="6" selection-start-line="529" selection-start-column="6" selection-end-line="529" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="521" column="41" selection-start-line="521" selection-start-column="41" selection-end-line="521" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="119" column="6" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/gtest-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68267">
+          <caret line="3593" column="68" selection-start-line="3593" selection-start-column="68" selection-end-line="3593" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15200">
+          <caret line="800" column="7" selection-start-line="800" selection-start-column="7" selection-end-line="800" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_integer_testing.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_vector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="248" column="1" lean-forward="true" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/big_integer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="420">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/gtest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="20060" column="39" selection-start-line="20060" selection-start-column="39" selection-end-line="20060" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/gtest-all.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="9591" column="23" selection-start-line="9591" selection-start-column="23" selection-end-line="9591" selection-end-column="23" />
-          <folding>
-            <element signature="e#13623#13641#0" expanded="true" />
-            <element signature="e#18364#18573#0" expanded="true" />
-            <element signature="e#18670#18689#0" expanded="true" />
-            <element signature="e#18972#19004#0" expanded="true" />
-            <element signature="e#29090#29127#0" expanded="true" />
-            <element signature="e#29649#29684#0" expanded="true" />
-            <element signature="e#29928#29940#0" expanded="true" />
-            <element signature="e#30372#30384#0" expanded="true" />
-            <element signature="e#31439#31451#0" expanded="true" />
-            <element signature="e#31701#31713#0" expanded="true" />
-            <element signature="e#34182#34492#0" expanded="true" />
-            <element signature="e#60345#61108#0" expanded="true" />
-            <element signature="e#69737#69766#0" expanded="true" />
-            <element signature="e#79038#79101#0" expanded="true" />
-            <element signature="e#84397#85377#0" expanded="true" />
-            <element signature="e#95424#96221#0" expanded="true" />
-            <element signature="e#96281#96845#0" expanded="true" />
-            <element signature="e#97026#97090#0" expanded="true" />
-            <element signature="e#97169#98431#0" expanded="true" />
-            <element signature="e#100806#101080#0" expanded="true" />
-            <element signature="e#105574#105592#0" expanded="true" />
-            <element signature="e#112944#112965#0" expanded="true" />
-            <element signature="e#113381#113402#0" expanded="true" />
-            <element signature="e#116448#118575#0" expanded="true" />
-            <element signature="e#128042#128073#0" expanded="true" />
-            <element signature="e#133679#133690#0" expanded="true" />
-            <element signature="e#142243#142843#0" expanded="true" />
-            <element signature="e#144151#144177#0" expanded="true" />
-            <element signature="e#144325#144960#0" expanded="true" />
-            <element signature="e#145248#145274#0" expanded="true" />
-            <element signature="e#161156#161173#0" expanded="true" />
-            <element signature="e#162416#162667#0" expanded="true" />
-            <element signature="e#162888#163203#0" expanded="true" />
-            <element signature="e#163918#164045#0" expanded="true" />
-            <element signature="e#165734#165763#0" expanded="true" />
-            <element signature="e#166272#166985#0" expanded="true" />
-            <element signature="e#190597#190946#0" expanded="true" />
-            <element signature="e#208237#208303#0" expanded="true" />
-            <element signature="e#214059#214286#0" expanded="true" />
-            <element signature="e#217435#219259#0" expanded="true" />
-            <element signature="e#221538#221960#0" expanded="true" />
-            <element signature="e#260060#260079#0" expanded="true" />
-            <element signature="e#264017#264036#0" expanded="true" />
-            <element signature="e#317899#317920#0" expanded="true" />
-            <element signature="e#317944#317981#0" expanded="true" />
-            <element signature="e#318005#318081#0" expanded="true" />
-            <element signature="e#318088#318108#0" expanded="true" />
-            <element signature="e#318237#318271#0" expanded="true" />
-            <element signature="e#318361#318448#0" expanded="true" />
-            <element signature="e#318554#319401#0" expanded="true" />
-            <element signature="e#319732#319795#0" expanded="true" />
-            <element signature="e#320010#320146#0" expanded="true" />
-            <element signature="e#320182#320288#0" expanded="true" />
-            <element signature="e#321516#321773#0" expanded="true" />
-            <element signature="e#324851#325031#0" expanded="true" />
-            <element signature="e#325393#325615#0" expanded="true" />
-            <element signature="e#325711#325959#0" expanded="true" />
-            <element signature="e#326384#326612#0" expanded="true" />
-            <element signature="e#326915#327091#0" expanded="true" />
-            <element signature="e#329566#329763#0" expanded="true" />
-            <element signature="e#329799#329838#0" expanded="true" />
-            <element signature="e#331400#331487#0" expanded="true" />
-            <element signature="e#333389#333408#0" expanded="true" />
-            <element signature="e#333497#333545#0" expanded="true" />
-            <element signature="e#333569#333608#0" expanded="true" />
-            <element signature="e#333689#333767#0" expanded="true" />
-            <element signature="e#333810#333855#0" expanded="true" />
-            <element signature="e#334323#334449#0" expanded="true" />
-            <element signature="e#334601#335273#0" expanded="true" />
-            <element signature="e#335303#335766#0" expanded="true" />
-            <element signature="e#338194#347068#0" expanded="true" />
-            <element signature="e#347562#347619#0" expanded="true" />
-            <element signature="e#349340#349394#0" expanded="true" />
-            <element signature="e#355781#355897#0" expanded="true" />
-            <element signature="e#362382#362400#0" expanded="true" />
-            <element signature="e#365927#365965#0" expanded="true" />
-            <element signature="e#368531#368569#0" expanded="true" />
-            <element signature="e#370300#370319#0" expanded="true" />
-            <element signature="e#371315#371334#0" expanded="true" />
-            <element signature="e#374022#374124#0" expanded="true" />
-            <element signature="e#374363#374470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/gtest_main.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="41" column="50" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-release/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="81" column="29" lean-forward="true" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/big_integer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_integer_testing.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_vector.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="247">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>

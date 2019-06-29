@@ -127,6 +127,7 @@ big_integer &big_integer::operator-=(big_integer const &rhs) {
             *this = -buf;
         }
     }
+
     return *this;
 }
 

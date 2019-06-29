@@ -24,7 +24,7 @@ class my_vector
         uint32_t& operator[](size_t idx);
 
         //makes object unique
-        void detach(size_t useful_data);
+        void cut(size_t useful_data);
 
         void guarantee_capacity(size_t cap);
     };
@@ -32,8 +32,7 @@ class my_vector
     static const size_t SMALL_OBJECT_SIZE = sizeof(big_vector) / sizeof(uint32_t);
 
     size_t siz;
-    union
-    {
+    union {
         uint32_t small_data[SMALL_OBJECT_SIZE];
         big_vector data;
     };
@@ -71,7 +70,7 @@ public:
 
     void resize(size_t n);
     size_t size() const;
-    void detach();
+    void cut();
 };
 
 void swap(my_vector &a, my_vector& b);
